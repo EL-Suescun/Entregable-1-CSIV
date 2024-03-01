@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Entregable-1-CSIV")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6123f1c6f2b9aaea4663698e9fd331f9fd2f44f4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+290e4c3110617c8f3fa8fdc28ba47e7104a385a8")]
 [assembly: System.Reflection.AssemblyProductAttribute("Entregable-1-CSIV")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Entregable-1-CSIV")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
