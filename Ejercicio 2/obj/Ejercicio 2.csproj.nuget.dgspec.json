@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Santi\\OneDrive\\Documentos\\GitHub\\Entregable-1-CSIV\\Entregable-1-CSIV.csproj": {}
+    "C:\\Users\\Santi\\OneDrive\\Documentos\\GitHub\\Entregable-1-CSIV\\Ejercicio 2\\Ejercicio 2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Santi\\OneDrive\\Documentos\\GitHub\\Entregable-1-CSIV\\Entregable-1-CSIV.csproj": {
+    "C:\\Users\\Santi\\OneDrive\\Documentos\\GitHub\\Entregable-1-CSIV\\Ejercicio 2\\Ejercicio 2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Santi\\OneDrive\\Documentos\\GitHub\\Entregable-1-CSIV\\Entregable-1-CSIV.csproj",
-        "projectName": "Entregable-1-CSIV",
-        "projectPath": "C:\\Users\\Santi\\OneDrive\\Documentos\\GitHub\\Entregable-1-CSIV\\Entregable-1-CSIV.csproj",
+        "projectUniqueName": "C:\\Users\\Santi\\OneDrive\\Documentos\\GitHub\\Entregable-1-CSIV\\Ejercicio 2\\Ejercicio 2.csproj",
+        "projectName": "Ejercicio 2",
+        "projectPath": "C:\\Users\\Santi\\OneDrive\\Documentos\\GitHub\\Entregable-1-CSIV\\Ejercicio 2\\Ejercicio 2.csproj",
         "packagesPath": "C:\\Users\\Santi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Santi\\OneDrive\\Documentos\\GitHub\\Entregable-1-CSIV\\obj\\",
+        "outputPath": "C:\\Users\\Santi\\OneDrive\\Documentos\\GitHub\\Entregable-1-CSIV\\Ejercicio 2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Santi\\AppData\\Roaming\\NuGet\\NuGet.Config"
