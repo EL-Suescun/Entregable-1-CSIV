@@ -9,5 +9,22 @@ Instrucciones:
 ° Si el usuario agota sus 3 intentos, muestra un mensaje que diga "Acceso denegado" y finaliza el programa 
 ° Asegúrate de proporcionar retroalimentación al usuario después de cada intento, indica cuántos intentos quedan*/
 
+string usuario_predefinido = "Psicologia123";
+
+string contraseña_predefinida = "123contraseña321";
+
+string usuario_ingresado = "";
+
+Console.Write("Ingrese su contraseña: ");
+string contraseña_ingresada = Console.ReadLine();
+
+int intentos = 0;
+
+while ((usuario_ingresado != usuario_predefinido && contraseña_ingresada != contraseña_predefinida) || intentos<3){
+    Console.Write("Ingrese su usuario: ");
+    usuario_ingresado = Console.ReadLine();
+    if(usuario_ingresado != usuario_predefinido)
+}
+
 
 
