@@ -9,21 +9,42 @@ Instrucciones:
 ° Si el usuario agota sus 3 intentos, muestra un mensaje que diga "Acceso denegado" y finaliza el programa 
 ° Asegúrate de proporcionar retroalimentación al usuario después de cada intento, indica cuántos intentos quedan*/
 
-string usuario_predefinido = "Psicologia123";
+string usuario_predefinido = "sico";
 
-string contraseña_predefinida = "123contraseña321";
+string contraseña_predefinida = "1234";
 
 string usuario_ingresado = "";
 
-Console.Write("Ingrese su contraseña: ");
-string contraseña_ingresada = Console.ReadLine();
+string contraseña_ingresada = "";
 
 int intentos = 0;
 
-while ((usuario_ingresado != usuario_predefinido && contraseña_ingresada != contraseña_predefinida) || intentos<3){
+bool validacion_usuario_contraseña = false;
+
+while (validacion_usuario_contraseña == false && intentos<3){
     Console.Write("Ingrese su usuario: ");
     usuario_ingresado = Console.ReadLine();
-    if(usuario_ingresado != usuario_predefinido)
+    if(usuario_ingresado == usuario_predefinido){
+        Console.Write("Ingrese su contraseña: ");
+        contraseña_ingresada = Console.ReadLine();
+        if(contraseña_ingresada == contraseña_predefinida){
+            validacion_usuario_contraseña = true;
+        }else{
+            Console.Write("Contraseña no valida \n");
+            intentos++;
+            Console.Write("Numero de intentos disponibles: {3-intentos} \n");
+        }
+    }else{
+        Console.Write("Usuario no valido \n");
+        intentos++;
+        Console.Write($"Numero de intentos disponibles: {3-intentos} \n");
+    }
+}
+
+if(validacion_usuario_contraseña){
+    Console.Write("Acceso concedido");
+}else{
+    Console.Write("Acceso denegado");
 }
 
 
